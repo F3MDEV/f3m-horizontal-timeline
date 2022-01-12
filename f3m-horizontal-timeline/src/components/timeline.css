@@ -1,0 +1,15 @@
+.timeline-container {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.timeline-container::before {
+  background: green;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 29px;
+}
